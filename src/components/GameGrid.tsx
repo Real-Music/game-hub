@@ -20,7 +20,7 @@ function GameGrid() {
         spacing={10}
       >
         {games.map((game) => (
-          <GameCard game={game} />
+          <GameCard key={game.id} game={game} />
         ))}
       </SimpleGrid>
     </>
