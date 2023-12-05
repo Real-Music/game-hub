@@ -2,14 +2,13 @@
 
 import platform from "../data/platform";
 
-interface Platform {
-	id: number;
-	name: string;
-	slug: string;
-}
+// interface Platform {
+// 	id: number;
+// 	name: string;
+// 	slug: string;
+// }
 
-const endpoint = '/platforms/lists/parents'
-// const usePlatform = () => useData<Platform>(endpoint);
+// const usePlatform = () => useData<Platform>('/platforms/lists/parents');
 const usePlatform = () => ({ data: platform, isLoading: false, error: null })
 
 export default usePlatform
