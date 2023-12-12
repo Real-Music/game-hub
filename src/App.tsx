@@ -3,7 +3,7 @@ import { Box, Grid, GridItem, HStack, Show } from "@chakra-ui/react";
 
 import { Genre } from "./hooks/useGenre";
 import NavBar from "./components/NavBar";
-import { Platform } from "./hooks/useGames";
+import { Platform } from "./hooks/usePlatforms";
 import GameGrid from "./components/GameGrid";
 import GenreList from "./components/GenreList";
 import PlatformSelector from "./components/PlatformSelector";
