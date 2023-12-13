@@ -1,17 +1,10 @@
-import {
-  Button,
-  Card,
-  CardBody,
-  HStack,
-  Heading,
-  Image,
-} from "@chakra-ui/react";
-import { Game } from "../entities/Game";
-import PlatformIconList from "./PlatformIconList";
-import CreditScore from "./CreditScore";
-import getCroppedImageUrl from "../services/image-url";
-import Emoji from "./Emoji";
+import { Card, CardBody, HStack, Heading, Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import { Game } from "../entities/Game";
+import getCroppedImageUrl from "../services/image-url";
+import CreditScore from "./CreditScore";
+import Emoji from "./Emoji";
+import PlatformIconList from "./PlatformIconList";
 
 interface Porps {
   game: Game;
